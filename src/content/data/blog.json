@@ -1,0 +1,69 @@
+[
+  {
+    "id": "post-1",
+    "slug": "why-engineering-physics-is-the-ultimate-software-foundation",
+    "title": "Why Engineering Physics is the Ultimate Foundation for Modern Software Engineering",
+    "excerpt": "From transistors and semiconductor physics to memory hierarchies and distributed systems: why understanding the physical world makes you a 10x better systems programmer.",
+    "category": "Physics",
+    "date": "July 2, 2026",
+    "readTime": "6 min read",
+    "tags": [
+      "Engineering Physics",
+      "Systems Programming",
+      "Computer Architecture",
+      "Philosophy"
+    ],
+    "content": "\n# The Full Stack Starts at the Atom\n\nIn modern software engineering, we talk constantly about \"the full stack.\" But for most developers, the stack stops at the operating system or the JavaScript runtime. When you study **Engineering Physics**, you quickly realize that the true stack goes all the way down to the quantum mechanical behavior of electrons inside silicon crystal lattices.\n\nWhen you understand that a transistor is not just a logical boolean switch, but a physical MOS capacitor governed by Fermi-Dirac statistics and band-bending, your perspective on code changes completely.\n\n## Why Physics Matters in Code\n\n1. **Memory is Physical, Not Infinite**: In introductory programming, memory is treated as an abstract array of boxes. In physics and hardware engineering, we know that DRAM cells leak charge over time and require active refresh cycles, while SRAM CPU caches depend on flip-flop gate propagation delays. When you write C or Rust code with cache locality in mind, you are directly respecting the physical laws of signal propagation along silicon copper interconnects.\n2. **Signal Noise and Data Analytics**: Why do sensor dashboards fail in the real world? Because real-world data is continuous, noisy, and subject to thermodynamic fluctuations. Understanding Fourier transforms, Nyquist sampling rates, and Kalman filtering allows an engineering physicist to write software that cleanses physical reality before it ever reaches a database.\n3. **First-Principles Problem Solving**: Physics trains you to strip a complex problem down to its fundamental conservation laws (energy, momentum, charge) and build up a solution from scratch. When debugging a distributed microservice architecture or a memory leak, this reductionist mindset is your most powerful tool.\n\n## Bridging the Gap\n\nMy goal as an Engineering Physics student is not just to build software that works, but to build systems that respect the physical world they operate within—whether that's optimizing numerical algorithms for scientific simulations, programming low-latency embedded firmware, or designing clean web interfaces for laboratory instruments.\n    "
+  },
+  {
+    "id": "post-2",
+    "slug": "demystifying-kalman-filters-for-iot-sensors",
+    "title": "Demystifying Kalman Filters: How to Implement Dual-Stage Sensor Fusion on ESP32 in C++",
+    "excerpt": "A step-by-step mathematical breakdown and practical C++ implementation of Kalman filtering to eliminate baseline drift and noise in inexpensive IoT gas sensors.",
+    "category": "Embedded Systems",
+    "date": "June 18, 2026",
+    "readTime": "9 min read",
+    "tags": [
+      "Kalman Filter",
+      "ESP32",
+      "C++",
+      "IoT",
+      "Signal Processing"
+    ],
+    "content": "\n# The Noise Problem in Low-Cost IoT Sensors\n\nIf you have ever connected an MQ-135 or BME680 gas sensor to an Arduino or ESP32 and plotted the raw analog readings, you know the truth: **raw sensor data is terrible.** It jumps around due to high-frequency thermal noise, and drifts slowly over hours as ambient room humidity changes.\n\nIf you feed this raw data directly into a cloud database or trigger alarms based on simple threshold checks, your IoT system will be plagued by false positives.\n\n## Enter the Kalman Filter\n\nRudolf E. Kálmán published his famous recursive linear estimator in 1960. It was famously used by NASA on the Apollo navigation computers to take noisy radar and inertial measurements and predict the true spacecraft trajectory.\n\nWe can use the exact same algorithm on an ESP32 microcontroller to estimate true indoor air quality!\n\n### The Two-Step Cycle\nThe Kalman filter operates in a continuous two-step loop:\n1. **Time Update (Predict)**: We project the current state estimate forward in time using our system model and add process noise covariance $Q$.\n2. **Measurement Update (Correct)**: We take the noisy physical sensor reading, compute the Kalman Gain $K$, and correct our predicted state.\n\n## Why C++ on ESP32?\n\nWhile Python has libraries like FilterPy, running Kalman filtering on the edge microcontroller itself (in C++) saves network bandwidth, reduces cloud compute costs, and allows sub-millisecond local alarm triggering. By using fixed-point arithmetic or hardware floating-point units (FPU) on the ESP32 ARM Cortex core, we achieve an execution footprint of under 2 milliseconds per sensor channel!\n    "
+  },
+  {
+    "id": "post-3",
+    "slug": "understanding-density-functional-theory-for-programmers",
+    "title": "A Programmer's Guide to Density Functional Theory (DFT) & Quantum ESPRESSO",
+    "excerpt": "How computational physicists simulate new semiconductor materials on supercomputers without ever touching a physical beaker or cleanroom.",
+    "category": "Semiconductor",
+    "date": "May 25, 2026",
+    "readTime": "8 min read",
+    "tags": [
+      "DFT",
+      "Quantum ESPRESSO",
+      "Materials Science",
+      "Scientific Computing",
+      "Python"
+    ],
+    "content": "\n# The 3-Body Problem on Steroids\n\nIn classical mechanics, simulating three interacting bodies gravitationally is notoriously difficult. Now imagine trying to simulate a silicon crystal lattice containing $10^{23}$ electrons and atomic nuclei, all interacting via Coulomb forces and quantum mechanical exchange-correlation effects!\n\nSolving the exact many-body Schrödinger equation for even a small molecule would take longer than the age of the universe on the world's fastest supercomputer.\n\n## Walter Kohn's Brilliant Shortcut: DFT\n\nIn 1964, Walter Kohn and Pierre Hohenberg proved a revolutionary theorem: **you do not need to know the individual 3N-dimensional wavefunctions of every electron to calculate the ground-state energy of a material.** Instead, the entire system can be determined uniquely by the 3-dimensional **electron density function $n(\\mathbf{r})$**.\n\nThis discovery earned Walter Kohn the Nobel Prize in Chemistry in 1998 and gave birth to **Density Functional Theory (DFT)**.\n\n## What is Quantum ESPRESSO?\n\nQuantum ESPRESSO is an open-source software suite written in FORTRAN and MPI for electronic-structure calculations and materials modeling at the nanoscale. It uses plane waves and pseudopotentials to solve the Kohn-Sham equations self-consistently.\n\nAs a software engineer and physics student, my role is building Python automation pipelines around these FORTRAN solvers—generating crystal lattice geometries, dispatching Slurm cluster jobs, and parsing electronic band structure arrays into beautiful web visualizations.\n    "
+  },
+  {
+    "id": "post-4",
+    "slug": "building-interactive-physics-simulations-in-nextjs-threejs",
+    "title": "Building Interactive Physics Simulations in the Browser with Next.js and React Three Fiber",
+    "excerpt": "Why interactive 3D WebGL visualizations are replacing static textbook diagrams in engineering education, and how to optimize 60 FPS shaders.",
+    "category": "Programming",
+    "date": "April 14, 2026",
+    "readTime": "7 min read",
+    "tags": [
+      "Three.js",
+      "React Three Fiber",
+      "WebGL",
+      "Next.js",
+      "Frontend"
+    ],
+    "content": "\n# Why Static Physics Diagrams Fail\n\nFor over a century, engineering physics textbooks have relied on static 2D ink drawings to explain inherently 3D, dynamic, time-dependent phenomena. Whether it is electromagnetic wave polarization, fluid vortex shedding, or semiconductor band bending, static diagrams force students to do heavy mental gymnastics.\n\nWith modern web technologies like **Next.js**, **WebGL**, and **React Three Fiber (R3F)**, we can bring the digital physics laboratory directly into any web browser at 60 frames per second.\n\n## The Power of React Three Fiber\n\nReact Three Fiber is a React renderer for Three.js. It allows us to build complex 3D scenes using declarative JSX components, hooks, and reactive state management:\n\n```tsx\n<Canvas camera={{ position: [0, 0, 5] }}>\n  <ambientLight intensity={0.5} />\n  <pointLight position={[10, 10, 10]} />\n  <SemiconductorWaferMesh />\n  <OrbitControls enableZoom={false} />\n</Canvas>\n```\n\n## Performance Rules for 60 FPS Shaders\n\nWhen rendering 3D scientific data (like a 10,000-particle electron cloud), you cannot update React state on every frame! Here are my three golden rules for high-performance physics web apps:\n1. **Use InstancedMesh**: Instead of creating 10,000 individual `<mesh>` components, use an `InstancedMesh` to draw all particles in a single GPU draw call.\n2. **Compute in Shaders (GLSL)**: Move wave equations and trigonometric particle motion out of JavaScript and directly into vertex/fragment shaders running on the GPU.\n3. **Strict Memory Disposal**: When navigating between Next.js pages, always dispose of Three.js geometries, materials, and textures to prevent memory leaks in long-running browser sessions.\n    "
+  }
+]

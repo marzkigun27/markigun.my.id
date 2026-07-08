@@ -1,0 +1,84 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Undergraduate Student — B.S. in Engineering Physics",
+    "organization": "Institut Teknologi Bandung (ITB) / University of Excellence",
+    "period": "2022 — Present (Expected Graduation: 2026)",
+    "type": "Education",
+    "location": "Bandung / Indonesia",
+    "description": "Pursuing a rigorous interdisciplinary engineering degree combining classical & quantum physics, advanced mathematics, electronics, instrumentation, and computational engineering. Current GPA: 3.85 / 4.00.",
+    "highlights": [
+      "Specialization: Computational Physics, Instrumentation & Control Systems, and Semiconductor Device Physics.",
+      "Key Coursework: Quantum Mechanics, Numerical Methods, Fluid Mechanics, Thermodynamics, Solid State Physics, Microcontroller Systems, Digital Signal Processing.",
+      "Awarded Dean's List of Academic Excellence for 5 consecutive semesters."
+    ]
+  },
+  {
+    "id": "exp-2",
+    "role": "Head Teaching Assistant & Lab Instructor (C Programming)",
+    "organization": "Engineering Physics Department",
+    "period": "August 2024 — Present",
+    "type": "Teaching Assistant",
+    "location": "University Campus",
+    "description": "Instructing 120+ undergraduate students in low-level C programming, memory allocation, data structures, and microcontroller interfacing.",
+    "highlights": [
+      "Led weekly 3-hour laboratory sessions and authored 8 practical assignment modules.",
+      "Engineered an automated Python/Valgrind grading system that reduced assignment evaluation time by 65%.",
+      "Mentored struggling students through 1-on-1 debugging workshops, achieving a 98% course passing rate."
+    ]
+  },
+  {
+    "id": "exp-3",
+    "role": "Undergraduate Research Assistant (Computational Physics Group)",
+    "organization": "Laboratory of Solid State & Semiconductor Materials",
+    "period": "January 2025 — Present",
+    "type": "Project & Research",
+    "location": "Research Center",
+    "description": "Conducting first-principles Density Functional Theory (DFT) simulations on supercomputers to discover novel 2D semiconductor alloys for clean energy applications.",
+    "highlights": [
+      "Authored automated Python pipelines wrapping Quantum ESPRESSO on Linux HPC clusters.",
+      "Co-authored 2 peer-reviewed journal publications and conference proceedings on MoS2 doping and gate oxide tunneling.",
+      "Presented research findings at the Annual Symposium on Semiconductor Technology."
+    ]
+  },
+  {
+    "id": "exp-4",
+    "role": "Lead Software & IoT Engineer",
+    "organization": "Smart Campus Environmental Monitoring Initiative",
+    "period": "June 2025 — November 2025",
+    "type": "Project & Research",
+    "location": "University Research Labs",
+    "description": "Architected and deployed an end-to-end IoT air quality telemetry platform across 4 high-precision university laboratories.",
+    "highlights": [
+      "Designed ESP32 sensor node firmware featuring embedded dual-stage Kalman filtering.",
+      "Built real-time Next.js and TimescaleDB analytics dashboard handling 50Hz WebSocket telemetry streams.",
+      "Provided lab researchers with automated environmental stability reports required for sensitive optical calibration."
+    ]
+  },
+  {
+    "id": "exp-5",
+    "role": "Vice President of Technology & Workshop Coordinator",
+    "organization": "Society of Engineering Physics Students (HMFT)",
+    "period": "March 2024 — March 2025",
+    "type": "Leadership & Org",
+    "location": "Student Union",
+    "description": "Led the technology division of the student organization, organizing technical bootcamps, hackathons, and industry mentorship programs.",
+    "highlights": [
+      "Organized the annual 'Physics & Software Hackathon' with over 200 participants across 15 universities.",
+      "Taught a 4-week introductory bootcamp on Linux command line, Git, and Python scientific computing to 80+ freshmen.",
+      "Managed the organization's official web portal and internal election software platform."
+    ]
+  },
+  {
+    "id": "exp-6",
+    "role": "Incoming R&D Software & Semiconductor Intern",
+    "organization": "Targeting R&D & Tech Leaders (Summer 2026)",
+    "period": "June 2026 — August 2026 (Target)",
+    "type": "Internship",
+    "location": "Global / Remote / Hybrid",
+    "description": "Actively seeking challenging summer internship opportunities in scientific software engineering, embedded systems R&D, EDA/semiconductor tool development, or high-performance computing.",
+    "highlights": [
+      "Ready to contribute deep physics domain knowledge, full-stack software expertise, and rigorous analytical problem-solving to an innovative engineering team."
+    ]
+  }
+]

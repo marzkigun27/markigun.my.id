@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ta-c-prog",
+    "course": "Advanced C Programming & Algorithmic Foundations",
+    "code": "TF-2104",
+    "semester": "Fall 2024 & Fall 2025",
+    "role": "Head Teaching Assistant & Lab Instructor",
+    "description": "Led weekly laboratory sessions for 120+ undergraduate engineering physics students. Taught low-level memory management (pointers, malloc/free, stack vs heap), data structures, file I/O, and modular firmware design.",
+    "responsibilities": [
+      "Designed 8 weekly hands-on laboratory assignments focusing on pointers, structs, linked lists, and numerical algorithms.",
+      "Developed an automated grading script in Python/Bash utilizing Valgrind to detect memory leaks and segmentation faults in student submissions.",
+      "Conducted weekly 2-hour interactive debugging workshops, teaching students how to use GDB and LLDB effectively.",
+      "Managed a team of 4 junior teaching assistants and coordinated midterm/final practical examinations."
+    ],
+    "topics": [
+      "Pointers & Memory Addressing",
+      "Dynamic Memory Allocation (Valgrind)",
+      "Data Structures (Linked Lists, Trees)",
+      "Bitwise Operations & Hardware Registers",
+      "Modular Multi-File Compilation (Makefiles)"
+    ],
+    "studentCount": 128,
+    "feedbackQuote": "Umar's lab sessions were the clearest explanation of pointers and memory allocation I've ever had. He showed us how C code actually executes on the processor silicon."
+  },
+  {
+    "id": "ta-num-methods",
+    "course": "Numerical Methods & Scientific Computing",
+    "code": "TF-3102",
+    "semester": "Spring 2025",
+    "role": "Teaching Assistant",
+    "description": "Assisted in teaching computational methods for solving engineering physics equations. Guided students through implementing numerical linear algebra, differential equation solvers, and curve fitting in Python and MATLAB.",
+    "responsibilities": [
+      "Delivered guest lectures on solving Ordinary Differential Equations (ODEs) using Runge-Kutta 4th Order (RK4) and boundary value problems.",
+      "Authored interactive Jupyter Notebook tutorials demonstrating the convergence behavior and stability limits of Euler vs Crank-Nicolson methods.",
+      "Hosted 1-on-1 office hours to assist students in debugging complex computational simulations of heat conduction and wave propagation."
+    ],
+    "topics": [
+      "Root Finding & Non-linear Equations",
+      "Numerical Linear Algebra (LU Decomposition)",
+      "Numerical Integration (Simpson's Rule, Gaussian Quadrature)",
+      "Differential Equations (Runge-Kutta, Finite Difference Method)",
+      "Error Analysis & Floating-Point IEEE 754 Limitations"
+    ],
+    "studentCount": 95,
+    "feedbackQuote": "The interactive Python notebooks Umar created made abstract numerical stability concepts visual and intuitive."
+  },
+  {
+    "id": "ta-physics-lab",
+    "course": "Introductory Engineering Physics Laboratory",
+    "code": "TF-1101",
+    "semester": "Spring 2024",
+    "role": "Laboratory Assistant",
+    "description": "Supervised physical experiments covering classical mechanics, thermodynamics, electromagnetism, and basic optical interferometry.",
+    "responsibilities": [
+      "Instructed students on proper handling of oscilloscopes, multimeters, function generators, and laser interferometers.",
+      "Taught rigorous scientific error propagation methods and statistical data analysis using Python SciPy and Matplotlib.",
+      "Evaluated weekly formal lab reports, emphasizing clear scientific writing, uncertainty analysis, and graphical formatting."
+    ],
+    "topics": [
+      "Oscilloscope & Instrumentation Measurement",
+      "Statistical Error Propagation & Uncertainty",
+      "RLC Circuit Resonance & Impedance",
+      "Michelson Interferometry & Wavelength Measurement"
+    ],
+    "studentCount": 110
+  }
+]

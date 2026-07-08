@@ -1,0 +1,19 @@
+{
+  "sectionTitle": "Let's build something meaningful.",
+  "sectionDescription": "Whether you are recruiting for **Summer 2026 R&D internships**, exploring scientific computing collaborations, or just want to discuss semiconductor physics and systems code—my inbox is open.",
+  "email": "umar.zaki@itb.ac.id",
+  "location": "Bandung, Indonesia • Open to Remote & Relocation",
+  "availabilityStatus": "Currently looking for **Summer 2026 R&D Internships** in software engineering, embedded systems, semiconductor EDA, or computational simulation.",
+  "socialLinks": [
+    { "label": "GitHub @umarzaki", "url": "https://github.com/umarzakigunawan", "icon": "Github" },
+    { "label": "LinkedIn Profile", "url": "https://linkedin.com/in/umarzakigunawan", "icon": "Linkedin" }
+  ],
+  "formSubjects": [
+    "Summer 2026 Internship Opportunity",
+    "Full-Stack / IoT Project Collaboration",
+    "Scientific Computing / DFT Research",
+    "Semiconductor / RTL Hardware Discussion",
+    "General Inquiry / Other"
+  ],
+  "bottomBanner": "> AVAILABLE FOR SUMMER 2026 R&D INTERNSHIPS // REMOTE & GLOBAL"
+}

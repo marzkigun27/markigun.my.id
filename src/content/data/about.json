@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2022",
+    "title": "The Physics Foundation",
+    "subtitle": "Entered ITB Engineering Physics",
+    "icon": "Atom",
+    "description": "Chose Engineering Physics to understand how technology works from first principles—from Schrödinger's wave equation and thermodynamics to Maxwell's electromagnetism.",
+    "skills": ["Classical Mechanics", "Thermodynamics", "Linear Algebra", "Vector Calculus"]
+  },
+  {
+    "year": "2023",
+    "title": "Systems Programming & Numerical Methods",
+    "subtitle": "Low-Level C & MATLAB Simulation",
+    "icon": "Terminal",
+    "description": "Realized that physics without computational power is just theory. Mastered C programming, memory allocation, pointers, and numerical differential solvers.",
+    "skills": ["C / C++", "MATLAB", "Numerical ODE Solvers", "Linux Command Line"]
+  },
+  {
+    "year": "2024",
+    "title": "Teaching Assistantship & Leadership",
+    "subtitle": "Head TA for C Programming (120+ Students)",
+    "icon": "GraduationCap",
+    "description": "Appointed Head TA. Authored 8 laboratory modules, led weekly 3-hour lectures, and engineered an automated Python/Valgrind memory leak grader.",
+    "skills": ["Mentorship", "Automated Grading", "Valgrind", "Public Speaking"]
+  },
+  {
+    "year": "2025 (EARLY)",
+    "title": "IoT & Real-Time Sensor Analytics",
+    "subtitle": "Deploying ESP32 Kalman Filter Arrays",
+    "icon": "LineChart",
+    "description": "Bridged hardware and web software by building an indoor air quality monitoring platform. Wrote embedded dual-stage Kalman filters in C++ connected to Next.js WebSockets.",
+    "skills": ["ESP32 / C++", "MQTT & WebSockets", "TimescaleDB", "Next.js App Router"]
+  },
+  {
+    "year": "2025 (MID)",
+    "title": "Supercomputers & Materials Simulation",
+    "subtitle": "First-Principles DFT Research Group",
+    "icon": "Microscope",
+    "description": "Joined the Solid State Physics lab. Wrote automated Python HPC pipelines wrapping Quantum ESPRESSO to simulate 2D semiconductor alloy bandgaps on 64-core clusters.",
+    "skills": ["Quantum ESPRESSO", "Python / SciPy", "Slurm HPC", "Bandgap Engineering"]
+  },
+  {
+    "year": "2025 (LATE)",
+    "title": "Semiconductor RTL & FPGA Processor Design",
+    "subtitle": "32-bit RISC-V Pipelined CPU on Xilinx Artix-7",
+    "icon": "Cpu",
+    "description": "Went down to the silicon transistor level. Designed, verified, and synthesized a 5-stage pipelined RISC-V processor core with matrix co-processor in SystemVerilog.",
+    "skills": ["SystemVerilog", "Xilinx Vivado", "RTL Verification", "FPGA Architecture"]
+  }
+]

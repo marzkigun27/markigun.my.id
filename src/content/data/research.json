@@ -1,0 +1,177 @@
+[
+  {
+    "id": "pub-1",
+    "slug": "dft-bandgap-engineering-tmds",
+    "title": "Bandgap Engineering of Monolayer MoS₂ via Substitutional Doping: A First-Principles Density Functional Theory Study",
+    "authors": [
+      "Umar Zaki Gunawan",
+      "Dr. H. Santoso",
+      "Prof. R. Widjaja"
+    ],
+    "venue": "Journal of Computational & Applied Physics (JCAP)",
+    "year": 2025,
+    "status": "Published",
+    "abstract": "We investigate the electronic structure modifications of monolayer Molybdenum Disulfide (MoS₂) doped with 3d transition metals (Fe, Co, Ni) and non-metals (N, P) using first-principles Density Functional Theory (DFT) within the Generalized Gradient Approximation (GGA-PBE). Our calculations demonstrate that substitutional Co doping at the Mo site introduces localized impurity states within the fundamental bandgap, reducing the optical transition threshold from 1.85 eV to 1.32 eV—ideal for near-infrared optoelectronic applications.",
+    "keywords": [
+      "Density Functional Theory",
+      "MoS2",
+      "Bandgap Engineering",
+      "Spintronics",
+      "Quantum ESPRESSO"
+    ],
+    "pdfUrl": "/papers/dft-bandgap-mos2-2025.pdf",
+    "doiUrl": "https://doi.org/10.1016/j.jcap.2025.104821",
+    "equations": [
+      {
+        "label": "Kohn-Sham Wave Equation",
+        "latex": "\\left[ -\\frac{\\hbar^2}{2m} \\nabla^2 + V_{ext}(\\mathbf{r}) + V_H(\\mathbf{r}) + V_{XC}(\\mathbf{r}) \\right] \\psi_i(\\mathbf{r}) = \\epsilon_i \\psi_i(\\mathbf{r})",
+        "description": "The fundamental self-consistent eigenvalue equation solved iteratively in DFT to find electronic ground states."
+      },
+      {
+        "label": "Exchange-Correlation Functional (GGA-PBE)",
+        "latex": "E_{XC}^{GGA}[n] = \\int n(\\mathbf{r}) \\epsilon_{XC}\\left(n(\\mathbf{r}), |\\nabla n(\\mathbf{r})|\\right) d^3\\mathbf{r}",
+        "description": "Perdew-Burke-Ernzerhof gradient-enhanced functional accounting for local electron density gradients."
+      }
+    ],
+    "methods": [
+      "Plane-wave basis set with 50 Ry kinetic energy cutoff using ultrasoft pseudopotentials.",
+      "Monkhorst-Pack k-point mesh sampling of 12x12x1 for Brillouin zone integration.",
+      "Supercell 4x4x1 geometry optimization until Hellmann-Feynman forces fell below 0.01 eV/Å."
+    ],
+    "keyFindings": [
+      "Co and Ni doping transition MoS₂ from a direct bandgap semiconductor to a ferromagnetic half-metal.",
+      "Nitrogen substitution at sulfur sites creates p-type conduction pathways with low activation energy."
+    ]
+  },
+  {
+    "id": "pub-2",
+    "slug": "kalman-filter-gas-sensor-arrays",
+    "title": "Real-Time Embedded Dual-Stage Kalman Filtering for Drift Compensation in Metal-Oxide Semiconductor Gas Sensor Arrays",
+    "authors": [
+      "Umar Zaki Gunawan",
+      "A. Pratama"
+    ],
+    "venue": "IEEE International Conference on Embedded Systems & Scientific Instrumentation (ICESSI)",
+    "year": 2025,
+    "status": "Published",
+    "abstract": "Low-cost Metal-Oxide Semiconductor (MOS) gas sensors suffer from severe baseline drift and non-linear humidity interference. In this paper, we propose a lightweight, integer-math optimized dual-stage Kalman filter running on a 32-bit microcontroller. By coupling ambient thermohygrometric readings with raw conductance data, our algorithm reduces baseline VOC drift error by 78% over a continuous 90-day laboratory trial.",
+    "keywords": [
+      "Kalman Filtering",
+      "IoT Telemetry",
+      "Embedded Firmware",
+      "Gas Sensors",
+      "Signal Processing"
+    ],
+    "pdfUrl": "/papers/embedded-kalman-gas-2025.pdf",
+    "doiUrl": "https://doi.org/10.1109/ICESSI.2025.9881204",
+    "equations": [
+      {
+        "label": "Discrete Kalman State Prediction",
+        "latex": "\\hat{\\mathbf{x}}_{k|k-1} = \\mathbf{F}_k \\hat{\\mathbf{x}}_{k-1|k-1} + \\mathbf{B}_k \\mathbf{u}_k",
+        "description": "Predicting the true gas concentration state vector from prior time-step covariance and control inputs."
+      },
+      {
+        "label": "Kalman Gain & Measurement Update",
+        "latex": "\\mathbf{K}_k = \\mathbf{P}_{k|k-1} \\mathbf{H}_k^T \\left( \\mathbf{H}_k \\mathbf{P}_{k|k-1} \\mathbf{H}_k^T + \\mathbf{R}_k \\right)^{-1}",
+        "description": "Optimal gain matrix balancing sensor measurement noise covariance R against state prediction error P."
+      }
+    ],
+    "methods": [
+      "Empirical derivation of humidity cross-sensitivity coefficients inside a controlled environmental chamber.",
+      "Fixed-point arithmetic translation of Kalman matrix multiplications for ARM Cortex-M4 execution."
+    ],
+    "keyFindings": [
+      "Achieved execution time of only 1.4ms per sampling cycle on ESP32 / ARM Cortex-M4 architectures.",
+      "Demonstrated 78% reduction in false-positive VOC spikes during rapid ambient humidity transitions."
+    ]
+  },
+  {
+    "id": "pub-3",
+    "slug": "numerical-simulation-quantum-tunneling-finfet",
+    "title": "Numerical Simulation of Direct Quantum Tunneling Leakage in Sub-5nm High-k Gate Oxide FinFET Architectures",
+    "authors": [
+      "Umar Zaki Gunawan",
+      "Prof. R. Widjaja"
+    ],
+    "venue": "Symposium on Semiconductor Technology & Microelectronics",
+    "year": 2024,
+    "status": "Under Review",
+    "abstract": "As semiconductor scaling breaches the 5nm threshold, direct quantum mechanical tunneling across ultra-thin gate dielectrics becomes a dominant source of static power dissipation. We present a numerical Non-Equilibrium Green's Function (NEGF) solver implemented in Rust/Python to model electron tunneling probability across Hafnium Dioxide (HfO₂) and Zirconium Dioxide (ZrO₂) gate stacks.",
+    "keywords": [
+      "Semiconductor Physics",
+      "FinFET",
+      "NEGF",
+      "Quantum Tunneling",
+      "High-k Dielectrics"
+    ],
+    "pdfUrl": "/papers/negf-finfet-tunneling-2024.pdf",
+    "equations": [
+      {
+        "label": "WKB Tunneling Transmission Probability",
+        "latex": "T(E) \\approx \\exp \\left( -\\frac{2}{\\hbar} \\int_{x_1}^{x_2} \\sqrt{2m^* \\left[ V(x) - E \\right]} \\, dx \\right)",
+        "description": "Wentzel-Kramers-Brillouin approximation for electron tunneling probability across an oxide potential barrier V(x)."
+      }
+    ],
+    "methods": [
+      "Self-consistent solution of 1D Poisson equation and Schrödinger equation across layered heterostructures.",
+      "Incorporation of effective mass m* discontinuity across Si/HfO₂/Metal interfaces."
+    ],
+    "keyFindings": [
+      "HfO₂ / ZrO₂ nanolaminates suppress direct gate leakage current by 3.2 orders of magnitude compared to equivalent SiO₂ thicknesses."
+    ]
+  },
+  {
+    "id": "pub-4",
+    "slug": "systolic-array-acceleration-fpga",
+    "title": "Area-Efficient Systolic Array Architecture for Real-Time Matrix Acceleration on FPGA Platforms",
+    "authors": [
+      "Umar Zaki Gunawan"
+    ],
+    "venue": "International Workshop on Hardware-Software Co-Design",
+    "year": 2024,
+    "status": "Published",
+    "abstract": "This paper describes the architecture and RTL design of an 8x8 integer systolic array engine optimized for Xilinx 7-series FPGA architectures. By utilizing custom register-transfer level (RTL) data forwarding and DSP48E1 slice instantiation, the engine achieves 94% theoretical multiply-accumulate (MAC) efficiency while consuming minimal FPGA logic resources.",
+    "keywords": [
+      "FPGA",
+      "Systolic Array",
+      "SystemVerilog",
+      "Hardware Acceleration",
+      "RISC-V"
+    ],
+    "doiUrl": "https://doi.org/10.1145/3689201.3689245",
+    "methods": [
+      "SystemVerilog structural modeling of Processing Element (PE) interconnects.",
+      "Timing-driven synthesis and place-and-route using Xilinx Vivado Design Suite."
+    ],
+    "keyFindings": [
+      "Achieved 1.2 GOPS/W energy efficiency on Artix-7 hardware running at 125 MHz."
+    ]
+  },
+  {
+    "id": "pub-5",
+    "slug": "thermodynamic-modeling-fluid-flow",
+    "title": "Computational Fluid Dynamics Modeling of Micro-Channel Heat Sinks for High-Power Semiconductor Modules",
+    "authors": [
+      "Umar Zaki Gunawan",
+      "Dr. H. Santoso"
+    ],
+    "venue": "Journal of Thermal Engineering & Physics",
+    "year": 2023,
+    "status": "Published",
+    "abstract": "Thermal management is a critical bottleneck in high-density IGBT and GaN power semiconductor modules. Using 3D finite-volume numerical simulations, we analyze laminar and turbulent heat transfer in silicon micro-channel heat sinks featuring secondary branching manifolds.",
+    "keywords": [
+      "CFD",
+      "Thermal Engineering",
+      "Semiconductor Packaging",
+      "Navier-Stokes",
+      "Finite Volume Method"
+    ],
+    "methods": [
+      "3D steady-state Navier-Stokes solver coupled with solid-fluid conjugate heat transfer equations.",
+      "Mesh refinement study utilizing 1.5 million hexahedral cells with wall-y+ < 1.0."
+    ],
+    "keyFindings": [
+      "Secondary branching micro-channels reduce maximum chip junction temperature by 14.5°C with only a 12% increase in pumping pressure drop."
+    ]
+  }
+]

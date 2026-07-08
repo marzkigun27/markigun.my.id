@@ -1,0 +1,33 @@
+{
+  "name": "Umar Zaki Gunawan",
+  "tagline": "// HELLO, WORLD. I AM",
+  "highlightedName": "Gunawan.",
+  "bio": "I am an <strong>Engineering Physics</strong> student who builds production software, designs FPGA processor architectures, and conducts supercomputer simulations.",
+  "bioTerminal": "> Bridging the physical laws of silicon with clean systems code and interactive digital laboratories.",
+  "statusBadge": "ONLINE • ITB ENGINEERING PHYSICS",
+  "badges": [
+    { "label": "CHIP DESIGN & RTL", "icon": "Cpu", "color": "light-salmon" },
+    { "label": "FULL-STACK SYSTEMS", "icon": "Terminal", "color": "light-sky-blue" }
+  ],
+  "profilePhotos": [
+    {
+      "src": "/author_half_body.jpg",
+      "alt": "Umar Zaki Gunawan - Engineering Physics & Chip Design",
+      "label": "CAM_01 // LAB_A"
+    },
+    {
+      "src": "/author_secondary.jpeg",
+      "alt": "Umar Zaki Gunawan - FPGA & Supercomputer Laboratory",
+      "label": "CAM_02 // LAB_B"
+    }
+  ],
+  "ctaButtons": [
+    { "label": "VIEW FEATURED PROJECTS", "href": "#projects", "variant": "blue" },
+    { "label": "DOWNLOAD CV (.PDF)", "href": "/resume.pdf", "variant": "charcoal", "external": true }
+  ],
+  "stats": [
+    { "value": "3.85", "suffix": "/4.0", "label": "Academic GPA (ITB)" },
+    { "value": "5+", "suffix": "", "label": "Research Papers" },
+    { "value": "120+", "suffix": "", "label": "Students Taught (TA)" }
+  ]
+}

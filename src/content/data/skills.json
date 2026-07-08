@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Python",
+    "category": "Programming",
+    "yearsOfExperience": 4,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard",
+      "DFT Simulation Pipeline",
+      "Numerical Methods Teaching"
+    ],
+    "relatedTech": [
+      "NumPy",
+      "SciPy",
+      "Matplotlib",
+      "Pandas",
+      "PyTorch"
+    ],
+    "description": "Primary language for scientific computing, data analytics, automated HPC simulation scripts, and IoT telemetry processing."
+  },
+  {
+    "name": "C / C++",
+    "category": "Programming",
+    "yearsOfExperience": 3,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard",
+      "TA C Programming Course",
+      "RISC-V FPGA Firmware"
+    ],
+    "relatedTech": [
+      "ESP32 / ESP-IDF",
+      "Arduino",
+      "Valgrind",
+      "GDB/LLDB",
+      "Embedded Systems"
+    ],
+    "description": "Deep expertise in memory management, pointers, embedded microcontroller firmware, and high-performance numerical algorithms."
+  },
+  {
+    "name": "TypeScript / JavaScript",
+    "category": "Programming",
+    "yearsOfExperience": 3,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard",
+      "Quantum Interactive Notebook",
+      "Personal Portfolio",
+      "Rental Car System"
+    ],
+    "relatedTech": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Bun",
+      "Tailwind CSS"
+    ],
+    "description": "Building type-safe, responsive, full-stack web applications, interactive scientific dashboards, and 3D WebGL interfaces."
+  },
+  {
+    "name": "Rust / WebAssembly",
+    "category": "Programming",
+    "yearsOfExperience": 2,
+    "proficiency": "Proficient",
+    "projectsUsedIn": [
+      "Quantum Interactive Notebook"
+    ],
+    "relatedTech": [
+      "wasm-bindgen",
+      "FFTW",
+      "High-Performance Browser Computing"
+    ],
+    "description": "Writing high-speed numerical solvers compiled to WebAssembly for real-time 60 FPS in-browser physics simulations."
+  },
+  {
+    "name": "NumPy & SciPy",
+    "category": "Scientific Computing",
+    "yearsOfExperience": 4,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard",
+      "DFT Simulation Pipeline",
+      "TA Physics Lab"
+    ],
+    "relatedTech": [
+      "Matplotlib",
+      "Plotly",
+      "Jupyter",
+      "Pandas"
+    ],
+    "description": "Vectorized linear algebra, differential equation integration, signal processing (FFT/Kalman), and statistical error analysis."
+  },
+  {
+    "name": "Quantum ESPRESSO",
+    "category": "Scientific Computing",
+    "yearsOfExperience": 2,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "DFT Simulation Pipeline",
+      "MoS2 Bandgap Research Paper"
+    ],
+    "relatedTech": [
+      "Density Functional Theory",
+      "MPI / Slurm",
+      "Linux Cluster",
+      "ASE/Pymatgen"
+    ],
+    "description": "Executing first-principles electronic structure calculations, bandgap prediction, and DOS modeling for semiconductor alloys."
+  },
+  {
+    "name": "MATLAB & Simulink",
+    "category": "Scientific Computing",
+    "yearsOfExperience": 3,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Numerical Methods Course",
+      "Control Systems Simulation"
+    ],
+    "relatedTech": [
+      "Control Theory",
+      "Signal Processing",
+      "Numerical Analysis"
+    ],
+    "description": "Simulating dynamical systems, control feedback loops, and teaching numerical methods for engineering physics."
+  },
+  {
+    "name": "React & Next.js (App Router)",
+    "category": "Frontend",
+    "yearsOfExperience": 3,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "Personal Portfolio",
+      "Indoor Air Quality Dashboard",
+      "Quantum Notebook",
+      "Rental Car System"
+    ],
+    "relatedTech": [
+      "Server Components",
+      "Server Actions",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI"
+    ],
+    "description": "Architecting modern SEO-optimized, highly interactive web platforms with clean component hierarchies and server-side rendering."
+  },
+  {
+    "name": "Tailwind CSS & Shadcn UI",
+    "category": "Frontend",
+    "yearsOfExperience": 3,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "Personal Portfolio",
+      "All Web Projects"
+    ],
+    "relatedTech": [
+      "CSS3",
+      "Design Systems",
+      "Neo-Brutalist Styling",
+      "Responsive Layouts"
+    ],
+    "description": "Crafting bespoke design systems, tactile neo-brutalist interfaces, custom animations, and accessible component libraries."
+  },
+  {
+    "name": "Three.js & React Three Fiber",
+    "category": "Frontend",
+    "yearsOfExperience": 2,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Personal Portfolio",
+      "Quantum Interactive Notebook",
+      "IAQ 3D Heatmap"
+    ],
+    "relatedTech": [
+      "WebGL",
+      "GLSL Shaders",
+      "Drei",
+      "3D Data Visualization"
+    ],
+    "description": "Rendering 3D scientific models, interactive crystal lattices, electron probability clouds, and immersive website hero backgrounds."
+  },
+  {
+    "name": "GSAP & Framer Motion",
+    "category": "Frontend",
+    "yearsOfExperience": 2,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Personal Portfolio"
+    ],
+    "relatedTech": [
+      "Lenis Smooth Scroll",
+      "Timeline Orchestration",
+      "Micro-animations"
+    ],
+    "description": "Orchestrating deterministic scroll-triggered animations, page transitions, and tactile UI feedback following HyperFrames principles."
+  },
+  {
+    "name": "Laravel & PHP",
+    "category": "Backend",
+    "yearsOfExperience": 2,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Rental Car Management System"
+    ],
+    "relatedTech": [
+      "REST APIs",
+      "Eloquent ORM",
+      "PostgreSQL",
+      "Redis",
+      "Authentication"
+    ],
+    "description": "Building robust enterprise REST APIs, transaction-safe database architectures, and automated business logic workflows."
+  },
+  {
+    "name": "PostgreSQL & TimescaleDB",
+    "category": "Backend",
+    "yearsOfExperience": 3,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard",
+      "Rental Car System"
+    ],
+    "relatedTech": [
+      "SQL",
+      "Time-series Data",
+      "Continuous Aggregates",
+      "Database Indexing"
+    ],
+    "description": "Designing relational schemas, optimizing query performance, and handling high-frequency time-series IoT sensor telemetry."
+  },
+  {
+    "name": "MQTT & WebSockets",
+    "category": "Backend",
+    "yearsOfExperience": 2,
+    "proficiency": "Advanced",
+    "projectsUsedIn": [
+      "Indoor Air Quality Dashboard"
+    ],
+    "relatedTech": [
+      "EMQX Broker",
+      "Real-time Streaming",
+      "TLS Security",
+      "IoT Protocols"
+    ],
+    "description": "Architecting low-latency, bidirectional telemetry communication pipelines between physical sensor nodes and web browsers."
+  },
+  {
+    "name": "Linux & Shell Scripting (Bash)",
+    "category": "Engineering & Tools",
+    "yearsOfExperience": 4,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "DFT Simulation Pipeline",
+      "TA C Programming Automated Grader",
+      "Server Deployment"
+    ],
+    "relatedTech": [
+      "Ubuntu/Debian",
+      "Slurm HPC",
+      "Cron Jobs",
+      "System Administration"
+    ],
+    "description": "Power user of Linux command line, automating cluster workflows, managing server environments, and writing robust bash scripts."
+  },
+  {
+    "name": "SystemVerilog & FPGA (Vivado)",
+    "category": "Engineering & Tools",
+    "yearsOfExperience": 2,
+    "proficiency": "Proficient",
+    "projectsUsedIn": [
+      "32-bit RISC-V FPGA Processor",
+      "Systolic Array Accelerator"
+    ],
+    "relatedTech": [
+      "Xilinx Artix-7",
+      "RTL Design",
+      "ModelSim",
+      "Digital Logic Synthesis"
+    ],
+    "description": "Designing pipelined CPU architectures, hardware accelerators, and verifying RTL timing closure on Xilinx FPGA hardware."
+  },
+  {
+    "name": "Git, Docker & VS Code",
+    "category": "Engineering & Tools",
+    "yearsOfExperience": 4,
+    "proficiency": "Expert",
+    "projectsUsedIn": [
+      "All Projects"
+    ],
+    "relatedTech": [
+      "CI/CD Pipelines",
+      "Containerization",
+      "Version Control",
+      "Debugging"
+    ],
+    "description": "Maintaining strict version control, reproducible Docker container environments, and advanced debugging workflows."
+  }
+]
