@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+:root {
+  --background: #E8E6E0;
+  /* gainsboro stone */
+  --foreground: #161616;
+  /* charcoal */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gainsboro: #E8E6E0;
+  --color-floral-white: #FCF5EB;
+  --color-charcoal: #161616;
+  --color-light-salmon-2: #F69B66;
+  --color-light-salmon: #F7C089;
+  --color-brick: #DA7438;
+  --color-light-sky-blue: #7AC0FD;
+  --color-dodger-blue: #1C8DF0;
+  --color-light-steel-blue: #B9DEFD;
+  --color-emerald-green: #24B178;
+  --color-navajo-white: #EBD08C;
+  --color-khaki: #F1CF79;
+
+  --font-sans: var(--font-space-grotesk), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+/* Custom Scrollbar Tokens from Design Guideline */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(250, 130, 130);
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(22, 22, 22);
+  border-radius: 10px;
+  box-shadow: rgb(248, 188, 188) 0px 0px, rgb(246, 179, 179) 2px 2px 1px 1px inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(231, 159, 50, 1);
+  border-color: rgb(22, 22, 22);
+  box-shadow: 2px 2px 1px 1px rgb(224, 187, 32) inset;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(196, 44, 44, 1);
+  border-color: rgb(22, 22, 22);
+  box-shadow: 2px 2px 2px 1px rgb(221, 58, 58) inset;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Neo-brutalist & Tactile utilities */
+.neo-border {
+  border: 3px solid #161616;
+}
+
+.neo-border-sm {
+  border: 2px solid #161616;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px #161616;
+}
+
+.neo-shadow-lg {
+  box-shadow: 6px 6px 0px #161616;
+}
+
+.tactile-btn-blue {
+  background-color: #1680dd;
+  border: 3px solid #161616;
+  box-shadow: inset -2px 2px #83b7e5, inset 2px -2px #1a588f;
+  transition: all 0.5s ease;
+}
+
+.tactile-btn-blue:hover {
+  border-radius: 0px !important;
+}
+
+.tactile-btn-green {
+  background-color: #24B178;
+  border: 3px solid #161616;
+  box-shadow: inset -2px 2px #abf4d7, inset 2px -2px #287956;
+  transition: all 0.5s ease;
+}
+
+.tactile-btn-green:hover {
+  border-radius: 0px !important;
+}
+
+.tactile-btn-peach {
+  background-color: #F8C785;
+  border: 3px solid #161616;
+  box-shadow: inset -2px 2px #f7dbb6, inset 2px -2px #e4962e;
+  transition: all 0.2s ease;
+}
+
+.tactile-btn-peach:hover {
+  padding-right: 2rem !important;
+}
